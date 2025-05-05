@@ -1,0 +1,323 @@
+CustomScenario
+{
+	gameVersion = 1.7.3f4
+	campaignID = Headless Server
+	campaignOrderIdx = 4
+	scenarioName = TestMission2
+	scenarioID = TestMission2
+	scenarioDescription = Another map for HS testing and development
+	mapID = test
+	vehicle = F-45A
+	multiplayer = True
+	allowedEquips = f45_gun;f45_sidewinderx2;f45_aim9x1;f45_amraamInternal;f45_amraamRail;f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_droptank;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;
+	forceEquips = False
+	normForcedFuel = 1
+	equipsConfigurable = True
+	baseBudget = 100000
+	isTraining = False
+	rtbWptID = 
+	refuelWptID = 
+	mpPlayerCount = 8
+	autoPlayerCount = True
+	overrideAlliedPlayerCount = 0
+	overrideEnemyPlayerCount = 0
+	scorePerDeath_A = 0
+	scorePerDeath_B = 0
+	scorePerKill_A = 0
+	scorePerKill_B = 0
+	mpBudgetMode = Life
+	rtbWptID_B = 
+	refuelWptID_B = 
+	separateBriefings = False
+	baseBudgetB = 100000
+	infiniteAmmo = False
+	infAmmoReloadDelay = 5
+	fuelDrainMult = 1
+	envName = day
+	selectableEnv = True
+	windDir = 0
+	windSpeed = 0
+	windVariation = 0
+	windGusts = 0
+	qsMode = Anywhere
+	qsLimit = -1
+	UNITS
+	{
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (14260.451141357422, 51.909271240234375, 12855.401977539063)
+			unitInstanceID = 0
+			unitID = MultiplayerSpawn
+			rotation = (2.418953E-05, 185.8143, 6.031062E-07)
+			spawnChance = 100
+			lastValidPlacement = (14260.451141357422, 51.909271240234375, 12855.401977539063)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = 
+				unitGroup = null
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (14209.355209350586, 51.909271240234375, 12860.323974609375)
+			unitInstanceID = 1
+			unitID = MultiplayerSpawn
+			rotation = (2.418953E-05, 185.8143, 6.031062E-07)
+			spawnChance = 100
+			lastValidPlacement = (14209.355209350586, 51.909271240234375, 12860.323974609375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = 
+				unitGroup = null
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (14214.383087158203, 51.9093017578125, 12904.491088867188)
+			unitInstanceID = 2
+			unitID = MultiplayerSpawn
+			rotation = (2.418953E-05, 185.8143, 6.031062E-07)
+			spawnChance = 100
+			lastValidPlacement = (14214.383087158203, 51.9093017578125, 12904.491088867188)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = null
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (14260.99169921875, 51.9093017578125, 12900.001220703125)
+			unitInstanceID = 3
+			unitID = MultiplayerSpawn
+			rotation = (2.418953E-05, 185.8143, 6.031062E-07)
+			spawnChance = 100
+			lastValidPlacement = (14260.99169921875, 51.9093017578125, 12900.001220703125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = null
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (13958.757957458496, 51.908588409423828, 9939.7447509765625)
+			unitInstanceID = 4
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-2.41952E-05, 5.095974, -2.99805E-07)
+			spawnChance = 100
+			lastValidPlacement = (13958.757957458496, 51.908588409423828, 9939.7447509765625)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = null
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (13921.082855224609, 51.908588409423828, 9943.887939453125)
+			unitInstanceID = 5
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-2.41952E-05, 5.095974, -2.99805E-07)
+			spawnChance = 100
+			lastValidPlacement = (13921.082855224609, 51.908588409423828, 9943.887939453125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = null
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (13925.147155761719, 51.908599853515625, 9980.8450927734375)
+			unitInstanceID = 6
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-2.41952E-05, 5.095974, -2.99805E-07)
+			spawnChance = 100
+			lastValidPlacement = (13925.147155761719, 51.908599853515625, 9980.8450927734375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = 
+				unitGroup = null
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (13958.056610107422, 51.908596038818359, 9977.22607421875)
+			unitInstanceID = 7
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-2.41952E-05, 5.095974, -2.99805E-07)
+			spawnChance = 100
+			lastValidPlacement = (13958.056610107422, 51.908596038818359, 9977.22607421875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = 
+				unitGroup = null
+				startMode = FlightReady
+				equipment = 
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+	}
+	PATHS
+	{
+	}
+	WAYPOINTS
+	{
+	}
+	UNITGROUPS
+	{
+	}
+	TimedEventGroups
+	{
+	}
+	TRIGGER_EVENTS
+	{
+	}
+	OBJECTIVES
+	{
+	}
+	OBJECTIVES_OPFOR
+	{
+	}
+	StaticObjects
+	{
+	}
+	Conditionals
+	{
+	}
+	ConditionalActions
+	{
+	}
+	EventSequences
+	{
+	}
+	BASES
+	{
+		BaseInfo
+		{
+			id = 1
+			overrideBaseName = 
+			baseTeam = Allied
+		}
+	}
+	GlobalValues
+	{
+	}
+	Briefing
+	{
+	}
+	Briefing_B
+	{
+	}
+}
+

@@ -1,0 +1,2436 @@
+CustomScenario
+{
+	gameVersion = 1.10.1f1
+	campaignID = Headless Server
+	campaignOrderIdx = 11
+	scenarioName = BVR Ocixem
+	scenarioID = BVR Ocixem
+	scenarioDescription = 24/7 BVR. Each team gets 8x F/A-26b, 2x EF-24, 3x T-55, 1x F-45
+	mapID = mexico
+	vehicle = F-45A
+	multiplayer = True
+	allowedEquips = f45_gun;f45_sidewinderx2;f45_aim9x1;f45_amraamInternal;f45_amraamRail;f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_droptank;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;
+	forceEquips = False
+	normForcedFuel = 1
+	equipsConfigurable = True
+	baseBudget = 100000
+	isTraining = False
+	rtbWptID = wpt:2
+	refuelWptID = 
+	mpPlayerCount = 16
+	autoPlayerCount = False
+	overrideAlliedPlayerCount = 8
+	overrideEnemyPlayerCount = 8
+	scorePerDeath_A = 0
+	scorePerDeath_B = 0
+	scorePerKill_A = 0
+	scorePerKill_B = 0
+	mpBudgetMode = Life
+	rtbWptID_B = wpt:0
+	refuelWptID_B = 
+	separateBriefings = False
+	baseBudgetB = 100000
+	infiniteAmmo = False
+	infAmmoReloadDelay = 5
+	fuelDrainMult = 1
+	envName = day
+	selectableEnv = True
+	windDir = 0
+	windSpeed = 0
+	windVariation = 0
+	windGusts = 0
+	defaultWeather = 0
+	customTimeOfDay = 11
+	overrideLocation = True
+	overrideLatitude = 0
+	overrideLongitude = 0
+	month = 1
+	day = 1
+	year = 2024
+	timeOfDaySpeed = 1
+	qsMode = Anywhere
+	qsLimit = -1
+	WEATHER_PRESETS
+	{
+	}
+	UNITS
+	{
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (158973.58959960938, 741.15460205078125, 67026.133911132813)
+			unitInstanceID = 38
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.001896E-07, 202.1136, -1.839058E-05)
+			spawnChance = 100
+			lastValidPlacement = (158973.58959960938, 741.15460205078125, 67026.133911132813)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Enemy:Zulu
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (23119.115356445313, 160.71340179443359, 132460.6301574707)
+			unitInstanceID = 37
+			unitID = MultiplayerSpawn
+			rotation = (9.558632E-07, 251.6184, 2.453596E-05)
+			spawnChance = 100
+			lastValidPlacement = (23119.115356445313, 160.71340179443359, 132460.6301574707)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = T-55
+				slotLabel = 
+				unitGroup = Allied:Delta
+				startMode = FlightReady
+				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22948.904022216797, 160.71353912353516, 132991.10945129395)
+			unitInstanceID = 36
+			unitID = MultiplayerSpawn
+			rotation = (9.558632E-07, 251.6184, 2.453596E-05)
+			spawnChance = 100
+			lastValidPlacement = (22948.904022216797, 160.71353912353516, 132991.10945129395)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = T-55
+				slotLabel = 
+				unitGroup = Allied:Delta
+				startMode = FlightReady
+				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22884.5830078125, 160.71360015869141, 133186.87088012695)
+			unitInstanceID = 35
+			unitID = MultiplayerSpawn
+			rotation = (9.558632E-07, 251.6184, 2.453596E-05)
+			spawnChance = 100
+			lastValidPlacement = (22884.5830078125, 160.71360015869141, 133186.87088012695)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = EF-24G
+				slotLabel = 
+				unitGroup = Allied:Charlie
+				startMode = FlightReady
+				equipment = ef24_marmx1;ef24_gbu12x1;ef24_gbu12x2;ef24_gbu12x3;ef24_gbu38x1;ef24_gbu38x2;ef24_gbu38x3;ef24_gbu39x4;ef24_mk82x1;ef24_mk82x2;ef24_mk82x3;ef24_mk82x4;ef24_mk82HDx1;ef24_mk82HDx2;ef24_mk82HDx3;ef24_mk82HDx4;ef24_mk83x1;ef24_mk83x2;ef24_agm161;ef24_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22825.432006835938, 160.71364593505859, 133389.83297729492)
+			unitInstanceID = 34
+			unitID = MultiplayerSpawn
+			rotation = (9.558632E-07, 251.6184, 2.453596E-05)
+			spawnChance = 100
+			lastValidPlacement = (22825.432006835938, 160.71364593505859, 133389.83297729492)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = EF-24G
+				slotLabel = 
+				unitGroup = Allied:Charlie
+				startMode = FlightReady
+				equipment = ef24_marmx1;ef24_gbu12x1;ef24_gbu12x2;ef24_gbu12x3;ef24_gbu38x1;ef24_gbu38x2;ef24_gbu38x3;ef24_gbu39x4;ef24_mk82x1;ef24_mk82x2;ef24_mk82x3;ef24_mk82x4;ef24_mk82HDx1;ef24_mk82HDx2;ef24_mk82HDx3;ef24_mk82HDx4;ef24_mk83x1;ef24_mk83x2;ef24_agm161;ef24_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (21860.319702148438, 160.71380615234375, 133776.86663818359)
+			unitInstanceID = 33
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (21860.319702148438, 160.71380615234375, 133776.86663818359)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = 
+				unitGroup = Allied:Bravo
+				startMode = FlightReady
+				equipment = f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_droptank;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (21924.345092773438, 160.71376037597656, 133585.40911865234)
+			unitInstanceID = 32
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (21924.345092773438, 160.71376037597656, 133585.40911865234)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22033.487854003906, 160.71368408203125, 133256.26278686523)
+			unitInstanceID = 31
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (22033.487854003906, 160.71368408203125, 133256.26278686523)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22105.487426757813, 160.713623046875, 133035.75408935547)
+			unitInstanceID = 30
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (22105.487426757813, 160.713623046875, 133035.75408935547)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22412.035110473633, 160.71337509155273, 132090.310546875)
+			unitInstanceID = 26
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (22412.035110473633, 160.71337509155273, 132090.310546875)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22483.079132080078, 160.71331787109375, 131873.29699707031)
+			unitInstanceID = 20
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (22483.079132080078, 160.71331787109375, 131873.29699707031)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22167.50146484375, 160.71357727050781, 132844.14227294922)
+			unitInstanceID = 29
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (22167.50146484375, 160.71357727050781, 132844.14227294922)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22228.675903320313, 160.71353149414063, 132650.81860351563)
+			unitInstanceID = 28
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (22228.675903320313, 160.71353149414063, 132650.81860351563)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (22350.984375, 160.71342468261719, 132285.44683837891)
+			unitInstanceID = 27
+			unitID = MultiplayerSpawn
+			rotation = (-5.090028E-08, 73.7306, -2.455452E-05)
+			spawnChance = 100
+			lastValidPlacement = (22350.984375, 160.71342468261719, 132285.44683837891)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Allied:Alpha
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (160658.68969726563, 741.1552734375, 66376.722534179688)
+			unitInstanceID = 45
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.001896E-07, 202.1136, -1.839058E-05)
+			spawnChance = 100
+			lastValidPlacement = (160658.68969726563, 741.1552734375, 66376.722534179688)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Enemy:Zulu
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (160328.85510253906, 741.15513610839844, 66498.485595703125)
+			unitInstanceID = 44
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.001896E-07, 202.1136, -1.839058E-05)
+			spawnChance = 100
+			lastValidPlacement = (160328.85510253906, 741.15513610839844, 66498.485595703125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Enemy:Zulu
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159926.76544189453, 741.15499114990234, 66652.932525634766)
+			unitInstanceID = 43
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.001896E-07, 202.1136, -1.839058E-05)
+			spawnChance = 100
+			lastValidPlacement = (159926.76544189453, 741.15499114990234, 66652.932525634766)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Enemy:Zulu
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159738.39526367188, 741.15493774414063, 66730.696502685547)
+			unitInstanceID = 42
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.001896E-07, 202.1136, -1.839058E-05)
+			spawnChance = 100
+			lastValidPlacement = (159738.39526367188, 741.15493774414063, 66730.696502685547)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Enemy:Zulu
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159378.10369873047, 741.15478515625, 66868.141082763672)
+			unitInstanceID = 41
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.001896E-07, 202.1136, -1.839058E-05)
+			spawnChance = 100
+			lastValidPlacement = (159378.10369873047, 741.15478515625, 66868.141082763672)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Enemy:Zulu
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159189.48937988281, 741.15472412109375, 66938.554504394531)
+			unitInstanceID = 40
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.001896E-07, 202.1136, -1.839058E-05)
+			spawnChance = 100
+			lastValidPlacement = (159189.48937988281, 741.15472412109375, 66938.554504394531)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Enemy:Zulu
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (160838.46301269531, 741.1552734375, 66300.148681640625)
+			unitInstanceID = 46
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.001896E-07, 202.1136, -1.839058E-05)
+			spawnChance = 100
+			lastValidPlacement = (160838.46301269531, 741.1552734375, 66300.148681640625)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F/A-26B
+				slotLabel = 
+				unitGroup = Enemy:Zulu
+				startMode = FlightReady
+				equipment = fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (161195.58325195313, 741.1553955078125, 66063.14990234375)
+			unitInstanceID = 47
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.270747E-05, 245.5081, -1.329448E-05)
+			spawnChance = 100
+			lastValidPlacement = (161195.58325195313, 741.1553955078125, 66063.14990234375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F-45A
+				slotLabel = 
+				unitGroup = Enemy:Yankee
+				startMode = FlightReady
+				equipment = f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159931.1665802002, 741.15505981445313, 65803.183288574219)
+			unitInstanceID = 49
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-9.112712E-07, 24.64159, 1.836825E-05)
+			spawnChance = 100
+			lastValidPlacement = (159931.1665802002, 741.15505981445313, 65803.183288574219)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = EF-24G
+				slotLabel = 
+				unitGroup = Enemy:Xray
+				startMode = FlightReady
+				equipment = ef24_marmx1;ef24_gbu12x1;ef24_gbu12x2;ef24_gbu12x3;ef24_gbu38x1;ef24_gbu38x2;ef24_gbu38x3;ef24_gbu39x4;ef24_mk82x1;ef24_mk82x2;ef24_mk82x3;ef24_mk82x4;ef24_mk82HDx1;ef24_mk82HDx2;ef24_mk82HDx3;ef24_mk82HDx4;ef24_mk83x1;ef24_mk83x2;ef24_agm161;ef24_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159735.85467529297, 741.15499877929688, 65879.068664550781)
+			unitInstanceID = 50
+			unitID = MultiplayerSpawnEnemy
+			rotation = (5.627841E-08, 21.62608, 1.839076E-05)
+			spawnChance = 100
+			lastValidPlacement = (159735.85467529297, 741.15499877929688, 65879.068664550781)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = EF-24G
+				slotLabel = 
+				unitGroup = Enemy:Xray
+				startMode = FlightReady
+				equipment = ef24_marmx1;ef24_gbu12x1;ef24_gbu12x2;ef24_gbu12x3;ef24_gbu38x1;ef24_gbu38x2;ef24_gbu38x3;ef24_gbu39x4;ef24_mk82x1;ef24_mk82x2;ef24_mk82x3;ef24_mk82x4;ef24_mk82HDx1;ef24_mk82HDx2;ef24_mk82HDx3;ef24_mk82HDx4;ef24_mk83x1;ef24_mk83x2;ef24_agm161;ef24_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159542.63192749023, 741.15495300292969, 65951.230255126953)
+			unitInstanceID = 52
+			unitID = MultiplayerSpawnEnemy
+			rotation = (5.627841E-08, 21.62608, 1.839076E-05)
+			spawnChance = 100
+			lastValidPlacement = (159542.63192749023, 741.15495300292969, 65951.230255126953)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = T-55
+				slotLabel = 
+				unitGroup = Enemy:Whiskey
+				startMode = FlightReady
+				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159025.94970703125, 741.15476989746094, 66154.667007446289)
+			unitInstanceID = 53
+			unitID = MultiplayerSpawnEnemy
+			rotation = (5.627841E-08, 21.62608, 1.839076E-05)
+			spawnChance = 100
+			lastValidPlacement = (159025.94970703125, 741.15476989746094, 66154.667007446289)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = T-55
+				slotLabel = 
+				unitGroup = Enemy:Whiskey
+				startMode = FlightReady
+				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (158820.02624511719, 741.1546630859375, 66242.570648193359)
+			unitInstanceID = 54
+			unitID = MultiplayerSpawnEnemy
+			rotation = (5.627556E-08, 21.62608, 1.839076E-05)
+			spawnChance = 100
+			lastValidPlacement = (158820.02624511719, 741.1546630859375, 66242.570648193359)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = T-55
+				slotLabel = 
+				unitGroup = Enemy:Whiskey
+				startMode = FlightReady
+				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (23183.501586914063, 160.71337890625, 132260.80435180664)
+			unitInstanceID = 55
+			unitID = MultiplayerSpawn
+			rotation = (9.558413E-07, 251.6184, 2.453596E-05)
+			spawnChance = 100
+			lastValidPlacement = (23183.501586914063, 160.71337890625, 132260.80435180664)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = T-55
+				slotLabel = 
+				unitGroup = Allied:Delta
+				startMode = FlightReady
+				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				b_eqAssignmentMode = False
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+			}
+		}
+	}
+	PATHS
+	{
+	}
+	WAYPOINTS
+	{
+		bullseyeID = 1
+		bullseyeID_B = 1
+		WAYPOINT
+		{
+			id = 0
+			name = TeamBRTB
+			globalPoint = (159964.66687011719, 741.155029296875, 66323.677795410156)
+		}
+		WAYPOINT
+		{
+			id = 1
+			name = Bullseye
+			globalPoint = (90859.724609375, 86.90234375, 99131.30078125)
+		}
+		WAYPOINT
+		{
+			id = 2
+			name = TeamARTB
+			globalPoint = (22458.911315917969, 160.71356201171875, 133012.99130249023)
+		}
+		WAYPOINT
+		{
+			id = 3
+			name = airbase_A
+			globalPoint = (22826.341400146484, 160.66473388671875, 131728.64472961426)
+		}
+		WAYPOINT
+		{
+			id = 4
+			name = airbase_A
+			globalPoint = (22916.645294189453, 160.7132568359375, 131759.24276733398)
+		}
+		WAYPOINT
+		{
+			id = 5
+			name = airbase_A
+			globalPoint = (21956.405208587646, 160.71400451660156, 134635.111328125)
+		}
+		WAYPOINT
+		{
+			id = 6
+			name = airbase_A
+			globalPoint = (21865.406433105469, 160.71400451660156, 134605.17248535156)
+		}
+		WAYPOINT
+		{
+			id = 7
+			name = spawncamp_A
+			globalPoint = (22458.911315917969, 160.71356201171875, 133012.99130249023)
+		}
+		WAYPOINT
+		{
+			id = 16
+			name = airbase_B
+			globalPoint = (161479.35386657715, 741.107177734375, 65771.590293884277)
+		}
+		WAYPOINT
+		{
+			id = 17
+			name = airbase_B
+			globalPoint = (161445.00943756104, 741.1070556640625, 65681.278493881226)
+		}
+		WAYPOINT
+		{
+			id = 18
+			name = airbase_B
+			globalPoint = (158610.74817180634, 741.154541015625, 66760.435581207275)
+		}
+		WAYPOINT
+		{
+			id = 19
+			name = airbase_B
+			globalPoint = (158644.96464920044, 741.15460205078125, 66850.418960571289)
+		}
+		WAYPOINT
+		{
+			id = 20
+			name = spawncamp_B
+			globalPoint = (159964.66687011719, 741.155029296875, 66323.677795410156)
+		}
+	}
+	UNITGROUPS
+	{
+		ALLIED
+		{
+			Alpha = 2;20;26;27;28;29;30;31;32;
+			Bravo = 2;33;
+			Charlie = 2;34;35;
+			Delta = 2;36;37;55;
+			Alpha_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Bravo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Charlie_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Delta_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
+		ENEMY
+		{
+			Yankee = 2;47;
+			Zulu = 2;38;40;41;42;43;44;45;46;
+			Xray = 2;49;50;
+			Whiskey = 2;52;53;54;
+			Yankee_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Zulu_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Xray_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Whiskey_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
+	}
+	TimedEventGroups
+	{
+	}
+	TRIGGER_EVENTS
+	{
+	}
+	OBJECTIVES
+	{
+		Objective
+		{
+			objectiveName = Kill
+			objectiveInfo = Join the discord: https://discord.gg/yQ8ZW8cQRt
+			objectiveID = 2
+			orderID = 0
+			required = True
+			completionReward = 0
+			waypoint = 0
+			autoSetWaypoint = True
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = SpawncampProt
+			objectiveInfo = 
+			objectiveID = 3
+			orderID = 1
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = Approaching spawncamp protection zone
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+	}
+	OBJECTIVES_OPFOR
+	{
+		Objective
+		{
+			objectiveName = Kill
+			objectiveInfo = Join the discord: https://discord.gg/yQ8ZW8cQRt
+			objectiveID = 0
+			orderID = 0
+			required = True
+			completionReward = 0
+			waypoint = 2
+			autoSetWaypoint = True
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = SpawncampProt
+			objectiveInfo = 
+			objectiveID = 1
+			orderID = 1
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = Approaching spawncamp protection zone
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+	}
+	StaticObjects
+	{
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 0
+			globalPos = (154012.591796875, 1015.4692993164063, 122533.26168823242)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 1
+			globalPos = (154012.76202392578, 1015.4692993164063, 122558.1339263916)
+			rotation = (-6.83019E-06, 5.641165E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 2
+			globalPos = (154012.13046264648, 1015.4692993164063, 122583.39315795898)
+			rotation = (-6.83019E-06, 5.641165E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 3
+			globalPos = (154013.25323486328, 1015.4692993164063, 122611.20666503906)
+			rotation = (-6.83019E-06, 5.641165E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 4
+			globalPos = (154012.27737426758, 1015.4692687988281, 122398.0133972168)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 5
+			globalPos = (154012.96041107178, 1015.4692678451538, 122373.6323928833)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 6
+			globalPos = (154012.17754364014, 1015.4692630767822, 122348.7791557312)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 7
+			globalPos = (154011.90349578857, 1015.4692583084106, 122321.66271018982)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 8
+			globalPos = (154012.65296936035, 1015.4692354202271, 122190.13012695313)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 9
+			globalPos = (154011.71006011963, 1015.4692296981812, 122161.50314331055)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 10
+			globalPos = (154010.26358795166, 1015.4692249298096, 122134.25225830078)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 11
+			globalPos = (154010.3556137085, 1015.469220161438, 122109.48516845703)
+			rotation = (-6.83019E-06, 5.641166E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 12
+			globalPos = (153269.36325073242, 1015.46923828125, 122208.37940216064)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 13
+			globalPos = (153269.62841796875, 1015.4692459106445, 122232.3455657959)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 14
+			globalPos = (153220.03207397461, 1015.4692459106445, 122233.60302734375)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 15
+			globalPos = (153220.24703979492, 1015.4692459106445, 122206.86157226563)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 16
+			globalPos = (153221.3996887207, 1015.4692687988281, 122393.84118652344)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 17
+			globalPos = (153271.0622253418, 1015.4692687988281, 122396.29177856445)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 18
+			globalPos = (153274.96583557129, 1015.4693450927734, 122809.65277957916)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 19
+			globalPos = (153274.51152038574, 1015.4693431854248, 122783.18594360352)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 20
+			globalPos = (153271.85039329529, 1015.4692802429199, 122423.9010925293)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 21
+			globalPos = (153219.73667907715, 1015.4692802429199, 122423.04119873047)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 22
+			globalPos = (153220.82070922852, 1015.4693098068237, 122589.41264343262)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 23
+			globalPos = (153222.02503204346, 1015.4693145751953, 122618.36611938477)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 24
+			globalPos = (153272.20376014709, 1015.4693145751953, 122619.69256591797)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 25
+			globalPos = (153271.79219055176, 1015.4693098068237, 122590.9362487793)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 26
+			globalPos = (153223.09783172607, 1015.4693441390991, 122781.52731323242)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 27
+			globalPos = (153223.43600463867, 1015.4693479537964, 122807.25250148773)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 28
+			globalPos = (153222.95607757568, 1015.4693794250488, 122976.15936279297)
+			rotation = (-7.103981E-06, 2.926223E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 29
+			globalPos = (153223.14671325684, 1015.4693851470947, 123006.77548217773)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 30
+			globalPos = (153223.18058776855, 1015.4694137573242, 123168.19964599609)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 31
+			globalPos = (153222.22623443604, 1015.4694185256958, 123195.15213012695)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 32
+			globalPos = (153223.36595916748, 1015.4694480895996, 123362.7010383606)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 33
+			globalPos = (153222.88128662109, 1015.4694528579712, 123391.30940246582)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 34
+			globalPos = (153226.78251647949, 1015.4694814682007, 123552.57414245605)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 35
+			globalPos = (153225.24752044678, 1015.4694862365723, 123579.44299316406)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 36
+			globalPos = (153277.18682861328, 1015.469482421875, 123578.06180000305)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 37
+			globalPos = (153277.45414733887, 1015.4694519042969, 123388.79528808594)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 38
+			globalPos = (153276.93710327148, 1015.4694442749023, 123362.31137084961)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 39
+			globalPos = (153274.53799438477, 1015.4694213867188, 123193.72534179688)
+			rotation = (-6.708506E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 40
+			globalPos = (153276.76319885254, 1015.4694137573242, 123165.94076538086)
+			rotation = (-6.708505E-06, 1.326393E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 41
+			globalPos = (153276.19216918945, 1015.4693832397461, 123001.5640963316)
+			rotation = (-7.103981E-06, 2.926223E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 42
+			globalPos = (153275.69370269775, 1015.4693784713745, 122976.03125572205)
+			rotation = (-7.103981E-06, 2.926223E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 43
+			globalPos = (153363.08234786987, 1015.4695072174072, 123694.37250518799)
+			rotation = (-6.688226E-06, 1.323723E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 44
+			globalPos = (153363.57639694214, 1015.4595060348511, 123719.67835235596)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 45
+			globalPos = (153363.75630187988, 1015.4595108032227, 123744.37896728516)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 46
+			globalPos = (153363.06088638306, 1015.4695205688477, 123769.14305114746)
+			rotation = (-6.688226E-06, 1.323723E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 47
+			globalPos = (153266.7671546936, 1015.4595155715942, 123771.02301025391)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 48
+			globalPos = (153266.25257492065, 1015.4595108032227, 123744.66526794434)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 49
+			globalPos = (153266.18435668945, 1015.4595060348511, 123719.10651397705)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 50
+			globalPos = (153266.32531356812, 1015.4595012664795, 123694.40213012695)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 51
+			globalPos = (153266.79800415039, 1015.4595336914063, 123857.15005493164)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 52
+			globalPos = (153266.15600585938, 1015.4595336914063, 123882.51197814941)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 53
+			globalPos = (153266.7321472168, 1015.4595336914063, 123907.74946594238)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 54
+			globalPos = (153266.48281860352, 1015.4595336914063, 123932.77261352539)
+			rotation = (-6.900762E-06, 3.470899E-14, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 55
+			globalPos = (153362.81848144531, 1015.4695434570313, 123933.27593994141)
+			rotation = (-6.688226E-06, 1.323723E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 56
+			globalPos = (153362.33438110352, 1015.4695434570313, 123908.4815826416)
+			rotation = (-6.688226E-06, 1.323723E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 57
+			globalPos = (153362.55612182617, 1015.4695434570313, 123884.93519592285)
+			rotation = (-6.688226E-06, 1.323723E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 58
+			globalPos = (153361.8376159668, 1015.4695434570313, 123858.91482543945)
+			rotation = (-6.688226E-06, 1.323723E-13, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 59
+			globalPos = (153351.65979003906, 1015.4695434570313, 123847.42042541504)
+			rotation = (6.144719E-07, 90.40685, -7.633331E-14)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 60
+			globalPos = (153327.74194335938, 1015.4695434570313, 123847.41925048828)
+			rotation = (6.144719E-07, 90.40685, -7.633331E-14)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 61
+			globalPos = (153303.13879394531, 1015.4695434570313, 123847.05198669434)
+			rotation = (6.144719E-07, 90.40685, -7.633331E-14)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 62
+			globalPos = (153279.28591918945, 1015.4695434570313, 123846.96932983398)
+			rotation = (6.144719E-07, 90.40685, -7.633331E-14)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 63
+			globalPos = (153277.24032592773, 1015.4595336914063, 123943.96228027344)
+			rotation = (1.930887E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 64
+			globalPos = (153299.93814086914, 1015.4595336914063, 123943.18792724609)
+			rotation = (1.930887E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 65
+			globalPos = (153322.88510131836, 1015.4595336914063, 123942.90748596191)
+			rotation = (1.930887E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 66
+			globalPos = (153347.53704833984, 1015.4695434570313, 123942.79766845703)
+			rotation = (6.144726E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 67
+			globalPos = (153349.88558959961, 1015.4695129394531, 123780.20414733887)
+			rotation = (6.144726E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 68
+			globalPos = (153328.60989379883, 1015.4695129394531, 123779.99481964111)
+			rotation = (6.144726E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 69
+			globalPos = (153305.82736206055, 1015.4695129394531, 123779.81056213379)
+			rotation = (6.144726E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 70
+			globalPos = (153280.84063720703, 1015.4695129394531, 123780.59684753418)
+			rotation = (6.144726E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 71
+			globalPos = (153277.67938232422, 1015.4595031738281, 123683.72399520874)
+			rotation = (1.930887E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 72
+			globalPos = (153301.47579956055, 1015.4595031738281, 123684.0797586441)
+			rotation = (1.930887E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 73
+			globalPos = (153325.96640014648, 1015.4595031738281, 123682.96139717102)
+			rotation = (1.930887E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 74
+			globalPos = (153349.5712890625, 1015.4595031738281, 123682.7425327301)
+			rotation = (1.930887E-07, 90.40685, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 75
+			globalPos = (153276.60454559326, 1015.469482421875, 123551.50143432617)
+			rotation = (6.698026E-06, 180.9641, -6.361109E-15)
+		}
+		StaticObject
+		{
+			prefabID = ConcreteWallX5
+			id = 76
+			globalPos = (50475.914321899414, 37.938117980957031, 108517.88087463379)
+			rotation = (2.402876E-05, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = ConcreteWallX5
+			id = 77
+			globalPos = (50488.916435241699, 37.938125610351563, 108541.20976257324)
+			rotation = (2.402876E-05, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 81
+			globalPos = (51154.321411132813, 38.221282958984375, 109807.36709594727)
+			rotation = (-6.731585E-06, 207.4314, 3.23951E-06)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 79
+			globalPos = (51130.90803527832, 38.221282958984375, 109757.15600585938)
+			rotation = (-6.731585E-06, 207.4314, 3.23951E-06)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 80
+			globalPos = (51152.913360595703, 40.34234619140625, 109806.63879394531)
+			rotation = (0, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 82
+			globalPos = (51106.223846435547, 38.221282958984375, 109834.70211791992)
+			rotation = (-6.731585E-06, 207.4314, 3.23951E-06)
+		}
+		StaticObject
+		{
+			prefabID = CargoCrate
+			id = 83
+			globalPos = (51080.618911743164, 38.221282958984375, 109784.29153442383)
+			rotation = (-6.731589E-06, 207.4314, 3.239509E-06)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 86
+			globalPos = (51105.750991821289, 40.442337036132813, 109834.68756103516)
+			rotation = (0, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 85
+			globalPos = (51129.350463867188, 40.34234619140625, 109756.32479858398)
+			rotation = (0, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 87
+			globalPos = (51080.235145568848, 40.442337036132813, 109783.83636474609)
+			rotation = (0, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 88
+			globalPos = (51035.162902832031, 37.938449859619141, 109595.1121673584)
+			rotation = (2.402876E-05, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 89
+			globalPos = (51020.929992675781, 37.938438415527344, 109571.19100952148)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 90
+			globalPos = (50943.395568847656, 37.938400268554688, 109421.07762718201)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 91
+			globalPos = (50930.902648925781, 37.938388824462891, 109393.03879499435)
+			rotation = (2.402876E-05, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 92
+			globalPos = (50781.160766601563, 37.938301086425781, 109109.72137451172)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 93
+			globalPos = (50769.49169921875, 37.938289642333984, 109086.94317626953)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 94
+			globalPos = (50674.155975341797, 37.938232421875, 108903.86727619171)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 95
+			globalPos = (50583.830261230469, 37.938186645507813, 108722.84959411621)
+			rotation = (2.402876E-05, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 96
+			globalPos = (50664.446441650391, 37.938232421875, 108879.61731719971)
+			rotation = (2.402876E-05, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 97
+			globalPos = (50569.785430908203, 37.938179016113281, 108697.6605682373)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 98
+			globalPos = (50312.772003173828, 37.938018798828125, 108203.88912963867)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 99
+			globalPos = (50300.482330322266, 37.938011169433594, 108180.00595092773)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 100
+			globalPos = (50216.514373779297, 37.937973022460938, 108020.30718994141)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 101
+			globalPos = (50205.478729248047, 37.937965393066406, 107997.52182006836)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 102
+			globalPos = (50114.432266235352, 37.937896728515625, 107818.29747581482)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 103
+			globalPos = (50101.743087768555, 37.937896728515625, 107792.64980649948)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 104
+			globalPos = (50745.043640136719, 37.937900543212891, 107447.75266647339)
+			rotation = (2.402876E-05, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 105
+			globalPos = (50731.730392456055, 37.937892913818359, 107422.03288841248)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 106
+			globalPos = (50721.908073425293, 37.937881469726563, 107400.6459223032)
+			rotation = (2.402876E-05, 207.4314, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 107
+			globalPos = (50709.392181396484, 37.937877655029297, 107377.5652256012)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 108
+			globalPos = (50806.914825439453, 37.937934875488281, 107565.27909851074)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 109
+			globalPos = (50818.193862915039, 37.937934875488281, 107587.90251159668)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 110
+			globalPos = (50830.894622802734, 37.937950134277344, 107612.07304382324)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 111
+			globalPos = (50841.809005737305, 37.937957763671875, 107632.63397216797)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 112
+			globalPos = (50904.609313964844, 37.937995910644531, 107755.88745117188)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 113
+			globalPos = (50918.132263183594, 37.938007354736328, 107782.50335693359)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 114
+			globalPos = (50931.073181152344, 37.938011169433594, 107806.85382080078)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 115
+			globalPos = (50942.781127929688, 37.938011169433594, 107829.08560180664)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 116
+			globalPos = (51160.7236328125, 37.938140869140625, 108246.13150787354)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 117
+			globalPos = (51173.956207275391, 37.938140869140625, 108272.71458816528)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 118
+			globalPos = (51186.200164794922, 37.938140869140625, 108297.82195234299)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 119
+			globalPos = (51197.280609130859, 37.93817138671875, 108320.55334472656)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 120
+			globalPos = (51255.127166748047, 37.938201904296875, 108425.20280456543)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 121
+			globalPos = (51268.656372070313, 37.938201904296875, 108452.03588867188)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 122
+			globalPos = (51283.099487304688, 37.938217163085938, 108477.31123352051)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 123
+			globalPos = (51291.922302246094, 37.938217163085938, 108498.71226501465)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 124
+			globalPos = (51353.280090332031, 37.938262939453125, 108615.91265869141)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 125
+			globalPos = (51366.802581787109, 37.938262939453125, 108640.89212036133)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 126
+			globalPos = (51378.089569091797, 37.938262939453125, 108664.45385742188)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 127
+			globalPos = (51389.298065185547, 37.938285827636719, 108687.41171264648)
+			rotation = (2.402877E-05, 207.4314, -4.071109E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 128
+			globalPos = (50648.737503051758, 37.938323974609375, 109227.93124389648)
+			rotation = (-1.833056E-05, 63.42307, 8.14222E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 129
+			globalPos = (50624.617218017578, 37.93829345703125, 109217.62609863281)
+			rotation = (-1.833056E-05, 63.42307, 8.14222E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 130
+			globalPos = (50466.74755859375, 37.938278198242188, 109167.41260528564)
+			rotation = (-1.833056E-05, 63.42307, 8.14222E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 131
+			globalPos = (50439.50138092041, 37.938262939453125, 109158.2282371521)
+			rotation = (-1.833056E-05, 63.42307, 8.14222E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 132
+			globalPos = (50350.680755615234, 37.938232421875, 109038.36457824707)
+			rotation = (-2.395783E-05, 29.22462, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 133
+			globalPos = (50338.360378265381, 37.938217163085938, 109013.36915588379)
+			rotation = (-2.395783E-05, 29.22462, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 134
+			globalPos = (50278.92276763916, 37.93817138671875, 108897.41983032227)
+			rotation = (-2.395783E-05, 29.22462, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 135
+			globalPos = (50266.567840576172, 37.93817138671875, 108871.609375)
+			rotation = (-2.395783E-05, 29.22462, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 136
+			globalPos = (50217.404846191406, 37.938140869140625, 108734.79040527344)
+			rotation = (-1.906622E-05, 345.2139, 2.035555E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 137
+			globalPos = (50225.996429443359, 37.938140869140625, 108705.69195556641)
+			rotation = (-1.906622E-05, 345.2139, 2.035555E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 138
+			globalPos = (50277.494209289551, 37.9381103515625, 108548.60803985596)
+			rotation = (-1.906622E-05, 345.2139, 2.035555E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16
+			id = 139
+			globalPos = (50287.010887145996, 37.938102722167969, 108517.14047241211)
+			rotation = (-1.906622E-05, 345.2139, 2.035555E-13)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 140
+			globalPos = (51129.47802734375, 40.442276000976563, 109755.93101501465)
+			rotation = (2.430437E-06, 345.2139, -4.173575E-06)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 141
+			globalPos = (51080.947021484375, 40.542373657226563, 109783.00382995605)
+			rotation = (2.430437E-06, 345.2139, -4.173575E-06)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 142
+			globalPos = (51106.998565673828, 40.542373657226563, 109835.3590927124)
+			rotation = (2.430437E-06, 345.2139, -4.173575E-06)
+		}
+		StaticObject
+		{
+			prefabID = MilTent
+			id = 143
+			globalPos = (51151.84033203125, 40.442276000976563, 109805.76290130615)
+			rotation = (2.430437E-06, 345.2139, -4.173575E-06)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 144
+			globalPos = (51151.892669677734, 43.324615478515625, 109805.89112854004)
+			rotation = (0, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 145
+			globalPos = (51129.091461181641, 43.324615478515625, 109756.00875854492)
+			rotation = (0, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 146
+			globalPos = (51080.381561279297, 43.524703979492188, 109783.90184783936)
+			rotation = (0, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = platform1
+			id = 147
+			globalPos = (51107.072692871094, 43.524703979492188, 109834.09934997559)
+			rotation = (0, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 148
+			globalPos = (50982.921798706055, 37.938449859619141, 109605.10610961914)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 149
+			globalPos = (50886.090637207031, 37.938388824462891, 109428.04907226563)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 150
+			globalPos = (50729.055450439453, 37.93829345703125, 109119.21640014648)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 151
+			globalPos = (50620.815979003906, 37.938232421875, 108913.47846221924)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 152
+			globalPos = (50527.097942352295, 37.938186645507813, 108734.9762878418)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 153
+			globalPos = (50434.553649902344, 37.938125610351563, 108551.83520507813)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 154
+			globalPos = (50258.589008331299, 37.938018798828125, 108213.67340087891)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 155
+			globalPos = (50165.492046356201, 37.937965393066406, 108032.87222290039)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 156
+			globalPos = (50059.961944580078, 37.937896728515625, 107826.88977050781)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 157
+			globalPos = (50323.118148803711, 37.93817138671875, 108863.74421691895)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 158
+			globalPos = (50393.105804443359, 37.938224792480469, 109001.58255410194)
+			rotation = (-2.404799E-05, 26.80531, 0)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 159
+			globalPos = (50469.385803222656, 37.938247680664063, 109113.26817321777)
+			rotation = (1.562405E-05, 252.5246, 1.628444E-12)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 160
+			globalPos = (50650.837825775146, 37.93829345703125, 109164.43319702148)
+			rotation = (1.562405E-05, 252.5246, 1.628444E-12)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 161
+			globalPos = (50337.654556274414, 37.9381103515625, 108547.35186767578)
+			rotation = (1.784148E-05, 160.682, -8.14222E-13)
+		}
+		StaticObject
+		{
+			prefabID = HescoX16T
+			id = 162
+			globalPos = (50275.549331665039, 37.938140869140625, 108736.34043502808)
+			rotation = (1.784148E-05, 160.682, -8.14222E-13)
+		}
+	}
+	Conditionals
+	{
+	}
+	ConditionalActions
+	{
+	}
+	EventSequences
+	{
+	}
+	BASES
+	{
+		BaseInfo
+		{
+			id = 0
+			overrideBaseName = 
+			baseTeam = Allied
+			CUSTOM_DATA
+			{
+			}
+		}
+		BaseInfo
+		{
+			id = 1
+			overrideBaseName = 
+			baseTeam = Enemy
+			CUSTOM_DATA
+			{
+			}
+		}
+		BaseInfo
+		{
+			id = 2
+			overrideBaseName = 
+			baseTeam = Enemy
+			CUSTOM_DATA
+			{
+			}
+		}
+		BaseInfo
+		{
+			id = 3
+			overrideBaseName = 
+			baseTeam = Enemy
+			CUSTOM_DATA
+			{
+			}
+		}
+		BaseInfo
+		{
+			id = 7
+			overrideBaseName = 
+			baseTeam = Allied
+			CUSTOM_DATA
+			{
+			}
+		}
+		BaseInfo
+		{
+			id = 8
+			overrideBaseName = 
+			baseTeam = Allied
+			CUSTOM_DATA
+			{
+			}
+		}
+	}
+	GlobalValues
+	{
+	}
+	Briefing
+	{
+		BRIEFING_NOTE
+		{
+			text = Welcome to the 24/7 ranked server.///nMissile intercepting is disabled.///nCollisions with aircraft are enabled.///nDo not get closer than 13nm to the enemy airbase. Join https://discord.gg/yQ8ZW8cQRt for more information and a leaderboard!
+			imagePath = 
+			audioClipPath = 
+		}
+	}
+	Briefing_B
+	{
+	}
+}
+

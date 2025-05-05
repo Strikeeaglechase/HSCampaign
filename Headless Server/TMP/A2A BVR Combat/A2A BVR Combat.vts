@@ -1,0 +1,1192 @@
+CustomScenario
+{
+	gameVersion = 1.5.7f1
+	campaignID = Headless Server
+	campaignOrderIdx = 0
+	scenarioName = A2A BVR Combat
+	scenarioID = A2A BVR Combat
+	scenarioDescription = Each team gets 6x F/A-26Bs and 2x F-45As. 24/7 BVR!
+	mapID = hMap2
+	vehicle = F/A-26B
+	multiplayer = True
+	allowedEquips = fa26_droptank;fa26_droptankXL;fa26-cft;fa26_gun;af_amraam;af_amraamRail;af_aim9;fa26_aim9x2;fa26_aim9x3;fa26_iris-t-x1;fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_tgp;fa26_harmx1;fa26_harmx1dpMount;fa26_sidearmx1;fa26_sidearmx2;fa26_sidearmx3;af_amraamRailx2;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+	forcedEquips = ;;;;;;;;;;;;;;;;
+	forceEquips = False
+	normForcedFuel = 1
+	equipsConfigurable = True
+	baseBudget = 100000
+	isTraining = False
+	rtbWptID = wpt:0
+	refuelWptID = 
+	mpPlayerCount = 16
+	autoPlayerCount = True
+	overrideAlliedPlayerCount = 1
+	overrideEnemyPlayerCount = 1
+	scorePerDeath_A = 1
+	scorePerDeath_B = 1
+	scorePerKill_A = 0
+	scorePerKill_B = 0
+	mpBudgetMode = Life
+	rtbWptID_B = wpt:1
+	refuelWptID_B = 
+	separateBriefings = False
+	baseBudgetB = 100000
+	infiniteAmmo = False
+	infAmmoReloadDelay = 5
+	fuelDrainMult = 1
+	envName = day
+	selectableEnv = True
+	qsMode = Anywhere
+	qsLimit = -1
+	UNITS
+	{
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (51161.413635253906, 276.87356567382813, 118749.56498718262)
+			unitInstanceID = 0
+			unitID = MultiplayerSpawn
+			rotation = (3.831979E-06, 166.2595, -2.02734E-05)
+			spawnChance = 100
+			lastValidPlacement = (51161.413635253906, 276.87356567382813, 118749.56498718262)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Allied:Alpha
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (50962.262145996094, 276.87353515625, 118703.15927124023)
+			unitInstanceID = 28
+			unitID = MultiplayerSpawn
+			rotation = (3.831979E-06, 166.2595, -2.02734E-05)
+			spawnChance = 100
+			lastValidPlacement = (50962.262145996094, 276.87353515625, 118703.15927124023)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Allied:Alpha
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (50737.964599609375, 276.87347412109375, 118648.85943603516)
+			unitInstanceID = 29
+			unitID = MultiplayerSpawn
+			rotation = (3.831979E-06, 166.2595, -2.02734E-05)
+			spawnChance = 100
+			lastValidPlacement = (50737.964599609375, 276.87347412109375, 118648.85943603516)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Allied:Whiskey
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (51534.372375488281, 276.87367248535156, 118837.03897094727)
+			unitInstanceID = 30
+			unitID = MultiplayerSpawn
+			rotation = (3.831979E-06, 166.2595, -2.02734E-05)
+			spawnChance = 100
+			lastValidPlacement = (51534.372375488281, 276.87367248535156, 118837.03897094727)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Allied:Whiskey
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (161049.36907958984, 851.79202270507813, 29155.056579589844)
+			unitInstanceID = 4
+			unitID = MultiplayerSpawnEnemy
+			rotation = (3.080255E-07, 164.2908, -1.782466E-05)
+			spawnChance = 100
+			lastValidPlacement = (161049.36907958984, 851.79202270507813, 29155.056579589844)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Enemy:Bravo
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (160301.48449707031, 851.7918701171875, 28928.196594238281)
+			unitInstanceID = 33
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.835857E-07, 163.8908, -1.782637E-05)
+			spawnChance = 100
+			lastValidPlacement = (160301.48449707031, 851.7918701171875, 28928.196594238281)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Enemy:India
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (160523.58471679688, 851.79196166992188, 28995.838958740234)
+			unitInstanceID = 32
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.835857E-07, 163.8908, -1.782637E-05)
+			spawnChance = 100
+			lastValidPlacement = (160523.58471679688, 851.79196166992188, 28995.838958740234)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Enemy:India
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (160854.99652099609, 851.79206848144531, 29101.121154785156)
+			unitInstanceID = 31
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.835857E-07, 163.8908, -1.782637E-05)
+			spawnChance = 100
+			lastValidPlacement = (160854.99652099609, 851.79206848144531, 29101.121154785156)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Enemy:Bravo
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (52489.972290039063, 276.8739013671875, 119067.13220214844)
+			unitInstanceID = 8
+			unitID = MultiplayerSpawn
+			rotation = (3.42877E-06, 165.1221, -2.034548E-05)
+			spawnChance = 100
+			lastValidPlacement = (52489.972290039063, 276.8739013671875, 119067.13220214844)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F45A
+				startMode = FlightReady
+				equipment = f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;
+				initialSpeed = 0
+				unitGroup = Allied:Golf
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (52686.405517578125, 276.8740234375, 119114.44891357422)
+			unitInstanceID = 9
+			unitID = MultiplayerSpawn
+			rotation = (3.42877E-06, 165.1221, -2.034548E-05)
+			spawnChance = 100
+			lastValidPlacement = (52686.405517578125, 276.8740234375, 119114.44891357422)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F45A
+				startMode = FlightReady
+				equipment = f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;
+				initialSpeed = 0
+				unitGroup = Allied:Golf
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159240.10583496094, 851.79132080078125, 27856.128021240234)
+			unitInstanceID = 10
+			unitID = MultiplayerSpawnEnemy
+			rotation = (-5.286391E-07, 345, 1.781948E-05)
+			spawnChance = 100
+			lastValidPlacement = (159240.10583496094, 851.79132080078125, 27856.128021240234)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F45A
+				startMode = FlightReady
+				equipment = f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;
+				initialSpeed = 0
+				unitGroup = Enemy:Romeo
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159704.79598999023, 851.79150390625, 27995.687561035156)
+			unitInstanceID = 11
+			unitID = MultiplayerSpawnEnemy
+			rotation = (3.251087E-08, 343.1963, 1.782729E-05)
+			spawnChance = 100
+			lastValidPlacement = (159704.79598999023, 851.79150390625, 27995.687561035156)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = F45A
+				startMode = FlightReady
+				equipment = f45_mk82x1;f45_mk82Internal;f45_mk82x4Internal;f45_gbu12x2Internal;f45_gbu12x1;f45-gbu39;f45_agm161;f45_agm161Internal;f45_gbu38x1;f45_gbu38x2Internal;f45_gbu38x4Internal;f45_mk83x1;f45_mk83x1Internal;f45-agm145I;f45-agm145ISide;f45-agm145x3;f45-gbu53;
+				initialSpeed = 0
+				unitGroup = Enemy:Romeo
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAAW
+			globalPosition = (159251.06323242188, 849.883544921875, 27587.59423828125)
+			unitInstanceID = 12
+			unitID = SAAW
+			rotation = (9.486345E-06, 0, 0)
+			spawnChance = 100
+			lastValidPlacement = (159251.06323242188, 849.883544921875, 27587.59423828125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAAW
+			globalPosition = (158932.44970703125, 850.254150390625, 29090.514526367188)
+			unitInstanceID = 13
+			unitID = SAAW
+			rotation = (359.8347, 340.1985, 359.541)
+			spawnChance = 100
+			lastValidPlacement = (158932.44970703125, 850.254150390625, 29090.514526367188)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAAW
+			globalPosition = (162075.65209960938, 849.883056640625, 28561.474853515625)
+			unitInstanceID = 14
+			unitID = SAAW
+			rotation = (9.486391E-06, 0, 0)
+			spawnChance = 100
+			lastValidPlacement = (162075.65209960938, 849.883056640625, 28561.474853515625)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SAAW
+			globalPosition = (161729.15380859375, 849.88330078125, 29744.56787109375)
+			unitInstanceID = 15
+			unitID = SAAW
+			rotation = (4.743181E-06, 0, 0)
+			spawnChance = 100
+			lastValidPlacement = (161729.15380859375, 849.88330078125, 29744.56787109375)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				stopToEngage = True
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Z20x2 Anti-Air Artillery
+			globalPosition = (161566.97436523438, 849.8831787109375, 29672.036010742188)
+			unitInstanceID = 16
+			unitID = staticAAA-20x2
+			rotation = (9.486384E-06, 0, 0)
+			spawnChance = 100
+			lastValidPlacement = (161566.97436523438, 849.8831787109375, 29672.036010742188)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Z20x2 Anti-Air Artillery
+			globalPosition = (161909.68969726563, 849.8831787109375, 28591.546997070313)
+			unitInstanceID = 17
+			unitID = staticAAA-20x2
+			rotation = (9.486375E-06, 0, 0)
+			spawnChance = 100
+			lastValidPlacement = (161909.68969726563, 849.8831787109375, 28591.546997070313)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Z20x2 Anti-Air Artillery
+			globalPosition = (159119.15588378906, 851.7427978515625, 27688.39111328125)
+			unitInstanceID = 18
+			unitID = staticAAA-20x2
+			rotation = (-1.67482E-06, -5.507194E-13, 1.884017E-05)
+			spawnChance = 100
+			lastValidPlacement = (159119.15588378906, 851.7427978515625, 27688.39111328125)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Z20x2 Anti-Air Artillery
+			globalPosition = (158962.8310546875, 849.88330078125, 28902.605102539063)
+			unitInstanceID = 19
+			unitID = staticAAA-20x2
+			rotation = (9.486384E-06, 0, 0)
+			spawnChance = 100
+			lastValidPlacement = (158962.8310546875, 849.88330078125, 28902.605102539063)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SRAD Truck
+			globalPosition = (52896.328735351563, 274.96533203125, 119573.70043945313)
+			unitInstanceID = 20
+			unitID = SRADTruck
+			rotation = (7.903706E-06, 33.57486, 5.246212E-06)
+			spawnChance = 100
+			lastValidPlacement = (52896.328735351563, 274.96533203125, 119573.70043945313)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SRAD Truck
+			globalPosition = (53319.14501953125, 274.9652099609375, 118367.27661132813)
+			unitInstanceID = 21
+			unitID = SRADTruck
+			rotation = (-2.614017E-06, 123.4432, 3.957868E-06)
+			spawnChance = 100
+			lastValidPlacement = (53319.14501953125, 274.9652099609375, 118367.27661132813)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SRAD Truck
+			globalPosition = (50470.435180664063, 274.96533203125, 119015.76293945313)
+			unitInstanceID = 22
+			unitID = SRADTruck
+			rotation = (5.194553E-06, 56.79875, 7.937728E-06)
+			spawnChance = 100
+			lastValidPlacement = (50470.435180664063, 274.96533203125, 119015.76293945313)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = SRAD Truck
+			globalPosition = (50815.50048828125, 274.96502685546875, 117645.17712402344)
+			unitInstanceID = 23
+			unitID = SRADTruck
+			rotation = (-7.44381E-06, 141.6914, 5.880584E-06)
+			spawnChance = 100
+			lastValidPlacement = (50815.50048828125, 274.96502685546875, 117645.17712402344)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				unitGroup = null
+				moveSpeed = Slow_10
+				behavior = Parked
+				defaultPath = null
+				waypoint = null
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = CIWS Turret
+			globalPosition = (50836.521423339844, 274.9951171875, 117665.91076660156)
+			unitInstanceID = 24
+			unitID = staticCIWS
+			rotation = (1.901893, 141.6625, 359.1306)
+			spawnChance = 100
+			lastValidPlacement = (50836.521423339844, 274.9951171875, 117665.91076660156)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = CIWS Turret
+			globalPosition = (50536.148681640625, 274.96533203125, 119016.81127929688)
+			unitInstanceID = 25
+			unitID = staticCIWS
+			rotation = (-7.443799E-06, 141.6914, 5.880575E-06)
+			spawnChance = 100
+			lastValidPlacement = (50536.148681640625, 274.96533203125, 119016.81127929688)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = CIWS Turret
+			globalPosition = (52938.223937988281, 274.965087890625, 119593.41333007813)
+			unitInstanceID = 26
+			unitID = staticCIWS
+			rotation = (-7.443799E-06, 141.6914, 5.880575E-06)
+			spawnChance = 100
+			lastValidPlacement = (52938.223937988281, 274.965087890625, 119593.41333007813)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = CIWS Turret
+			globalPosition = (53328.13623046875, 274.9652099609375, 118341.41589355469)
+			unitInstanceID = 27
+			unitID = staticCIWS
+			rotation = (-3.721897E-06, 141.6914, 2.940286E-06)
+			spawnChance = 100
+			lastValidPlacement = (53328.13623046875, 274.9652099609375, 118341.41589355469)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				engageEnemies = True
+				detectionMode = Default
+				spawnOnStart = True
+				invincible = True
+				receiveFriendlyDamage = True
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (51731.960418701172, 276.87371826171875, 118883.67047119141)
+			unitInstanceID = 42
+			unitID = MultiplayerSpawn
+			rotation = (3.831979E-06, 166.2595, -2.02734E-05)
+			spawnChance = 100
+			lastValidPlacement = (51731.960418701172, 276.87371826171875, 118883.67047119141)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Allied:Whiskey
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (51927.20751953125, 276.87378692626953, 118932.77658081055)
+			unitInstanceID = 43
+			unitID = MultiplayerSpawn
+			rotation = (3.831979E-06, 166.2595, -2.02734E-05)
+			spawnChance = 100
+			lastValidPlacement = (51927.20751953125, 276.87378692626953, 118932.77658081055)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Allied:Whiskey
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (159911.49325561523, 851.7916259765625, 28820.567657470703)
+			unitInstanceID = 41
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.835916E-07, 163.8908, -1.782637E-05)
+			spawnChance = 100
+			lastValidPlacement = (159911.49325561523, 851.7916259765625, 28820.567657470703)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Enemy:India
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+		UnitSpawner
+		{
+			unitName = MP Spawn
+			globalPosition = (160105.41101074219, 851.79170227050781, 28876.720611572266)
+			unitInstanceID = 40
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.835916E-07, 163.8908, -1.782637E-05)
+			spawnChance = 100
+			lastValidPlacement = (160105.41101074219, 851.79170227050781, 28876.720611572266)
+			editorPlacementMode = Ground
+			spawnFlags = 
+			UnitFields
+			{
+				vehicle = FA26B
+				startMode = FlightReady
+				initialSpeed = 0
+				equipment = fa26_iris-t-x2;fa26_iris-t-x3;af_mk82;fa26_mk82x2;fa26_mk82x3;fa26_mk82HDx1;fa26_mk82HDx2;fa26_mk82HDx3;fa26_mk83x1;fa26_cbu97x1;h70-x7ld;h70-x7ld-under;h70-x14ld;h70-x14ld-under;fa26_cagm-6;fa26_gbu38x1;fa26_gbu38x2;fa26_gbu38x3;fa26_gbu39x4uFront;fa26_gbu39x4uRear;fa26_maverickx1;fa26_maverickx3;fa26_agm89x1;fa26_gbu12x1;fa26_gbu12x2;fa26_gbu12x3;fa26_agm161;
+				unitGroup = Enemy:India
+				rtbIsSpawn = True
+				receiveFriendlyDamage = True
+				limitedLives = False
+				lifeCount = 1
+			}
+		}
+	}
+	PATHS
+	{
+	}
+	WAYPOINTS
+	{
+		bullseyeID = 2
+		bullseyeID_B = 3
+		WAYPOINT
+		{
+			id = 0
+			name = rtb A
+			globalPoint = (51634.366394042969, 276.8736572265625, 118511.80014038086)
+		}
+		WAYPOINT
+		{
+			id = 1
+			name = rtb B
+			globalPoint = (160057.58569335938, 851.7916259765625, 28504.101226806641)
+		}
+		WAYPOINT
+		{
+			id = 2
+			name = bulls A
+			globalPoint = (163186.5859375, 4995, 89339.255859375)
+		}
+		WAYPOINT
+		{
+			id = 3
+			name = bulls B
+			globalPoint = (94968.63671875, 4995, 60984.744140625)
+		}
+	}
+	UNITGROUPS
+	{
+		ALLIED
+		{
+			Alpha = 2;0;28;
+			Golf = 2;8;9;
+			Whiskey = 2;29;30;42;43;
+			Alpha_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Golf_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Whiskey_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
+		ENEMY
+		{
+			Bravo = 2;4;31;
+			India = 2;32;33;40;41;
+			Romeo = 2;10;11;
+			Bravo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			India_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Romeo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+		}
+	}
+	TimedEventGroups
+	{
+	}
+	TRIGGER_EVENTS
+	{
+	}
+	OBJECTIVES
+	{
+		Objective
+		{
+			objectiveName = Kill
+			objectiveInfo = Join the discord: https://discord.gg/yQ8ZW8cQRt
+			objectiveID = 0
+			orderID = 0
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = 0
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = FailedIntercept
+			objectiveInfo = 
+			objectiveID = 2
+			orderID = 1
+			required = False
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = Test test
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 2
+						eventName = Cancel Objective
+						methodName = CancelObjective
+					}
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+	}
+	OBJECTIVES_OPFOR
+	{
+		Objective
+		{
+			objectiveName = Kill
+			objectiveInfo = Join the discord: https://discord.gg/yQ8ZW8cQRt
+			objectiveID = 1
+			orderID = 0
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Immediate
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = 1
+				failConditional = null
+			}
+		}
+		Objective
+		{
+			objectiveName = FailedIntercept
+			objectiveInfo = 
+			objectiveID = 3
+			orderID = 1
+			required = True
+			completionReward = 0
+			waypoint = null
+			autoSetWaypoint = False
+			startMode = Triggered
+			objectiveType = Conditional
+			startEvent
+			{
+				EventInfo
+				{
+					eventName = Start Event
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						ParamInfo
+						{
+							type = System.String
+							value = Test Test
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 1
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+					EventTarget
+					{
+						targetType = Objective
+						targetID = 3
+						eventName = Cancel Objective
+						methodName = CancelObjective
+					}
+				}
+			}
+			failEvent
+			{
+				EventInfo
+				{
+					eventName = Failed Event
+				}
+			}
+			completeEvent
+			{
+				EventInfo
+				{
+					eventName = Completed Event
+				}
+			}
+			fields
+			{
+				successConditional = null
+				failConditional = null
+			}
+		}
+	}
+	StaticObjects
+	{
+	}
+	Conditionals
+	{
+		CONDITIONAL
+		{
+			id = 0
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCMPTeamStats
+				uiPos = (-392, 74, 0)
+				team = Allied
+				statType = Score
+				comparison = Greater_Than
+				count = 23
+			}
+		}
+		CONDITIONAL
+		{
+			id = 1
+			outputNodePos = (0, 0, 0)
+			root = 0
+			COMP
+			{
+				id = 0
+				type = SCCMPTeamStats
+				uiPos = (-307, 62, 0)
+				team = Enemy
+				statType = Score
+				comparison = Greater_Than
+				count = 23
+			}
+		}
+	}
+	ConditionalActions
+	{
+	}
+	EventSequences
+	{
+	}
+	BASES
+	{
+		BaseInfo
+		{
+			id = 0
+			overrideBaseName = Western Airbase
+			baseTeam = Allied
+		}
+		BaseInfo
+		{
+			id = 1
+			overrideBaseName = Eastern Airbase
+			baseTeam = Enemy
+		}
+	}
+	GlobalValues
+	{
+	}
+	Briefing
+	{
+		BRIEFING_NOTE
+		{
+			text = Welcome to Headless Server! Your stats are tracked persistently across games. Join https://discord.gg/yQ8ZW8cQRt for more information and a leaderboard! AIRS-T intercepting is disabled. If you encounter any bugs, report them to Strikeeaglechase#0001, don’t bother baha.
+			imagePath = lostPilot.png
+			audioClipPath = 
+		}
+	}
+	Briefing_B
+	{
+	}
+	ResourceManifest
+	{
+		0 = lostPilot.png
+	}
+}
+

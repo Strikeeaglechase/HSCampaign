@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-16"?>
+<WorkshopItemInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <PublishedFileId>0</PublishedFileId>
+  <Name>mexico</Name>
+  <Description>No description.
+
+by,,WingWing,,</Description>
+  <IconFileName>preview.jpg</IconFileName>
+  <Tags>
+    <string>Maps</string>
+  </Tags>
+</WorkshopItemInfo>
