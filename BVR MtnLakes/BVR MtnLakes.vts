@@ -2,7 +2,7 @@ CustomScenario
 {
 	gameVersion = 1.12.4f3
 	campaignID = Headless Server
-	campaignOrderIdx = 1
+	campaignOrderIdx = 11
 	scenarioName = BVR MtnLakes
 	scenarioID = BVR MtnLakes
 	scenarioDescription = 24/7 BVR. Each team gets 8x F/A-26b, 2x EF-24, 3x T-55, 1x F-45
@@ -282,11 +282,11 @@ CustomScenario
 		UnitSpawner
 		{
 			unitName = Bravo 1-1
-			globalPosition = (55556.483999999997, 818.76369999999997, 35850.160000000003)
+			globalPosition = (57757.660625457764, 1865.1018218994141, 37290.282302856445)
 			unitInstanceID = 8
 			unitID = MultiplayerSpawn
-			rotation = (0, 210.1272, 0)
-			lastValidPlacement = (55556.483999999997, 818.76369999999997, 35850.160000000003)
+			rotation = (-1.870176E-06, 213.8363, -9.47657E-06)
+			lastValidPlacement = (57757.660625457764, 1865.1018218994141, 37290.282302856445)
 			editorPlacementMode = Ground
 			onCarrier = False
 			mpSelectEnabled = True
@@ -305,6 +305,7 @@ CustomScenario
 				liveryRef = 0;
 				receiveFriendlyDamage = True
 				b_eqAssignmentMode = False
+				selectableAltSpawn = False
 			}
 		}
 		UnitSpawner
@@ -450,6 +451,7 @@ CustomScenario
 				receiveFriendlyDamage = True
 				slots = 2
 				b_eqAssignmentMode = False
+				selectableAltSpawn = False
 			}
 		}
 		UnitSpawner
@@ -683,7 +685,7 @@ CustomScenario
 			globalPosition = (78136.3720703125, 1264.953125, 177610.61669921875)
 			unitInstanceID = 22
 			unitID = MultiplayerSpawnEnemy
-			rotation = (6.108992E-06, 41.96093, 5.493018E-06)
+			rotation = (6.108993E-06, 41.96093, 5.493017E-06)
 			lastValidPlacement = (78136.3720703125, 1264.953125, 177610.61669921875)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -852,6 +854,66 @@ CustomScenario
 				selectableAltSpawn = False
 			}
 		}
+		UnitSpawner
+		{
+			unitName = Echo 1-1
+			globalPosition = (55978.578308105469, 940.54867553710938, 35623.040800094604)
+			unitInstanceID = 28
+			unitID = MultiplayerSpawn
+			rotation = (-1.856918E-05, 260.7155, 1.341695E-05)
+			lastValidPlacement = (55978.578308105469, 940.54867553710938, 35623.040800094604)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				vehicle = AV-42C
+				slotLabel = 
+				unitGroup = Allied:Echo
+				startMode = FlightReady
+				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+				b_eqAssignmentMode = False
+				selectableAltSpawn = False
+			}
+		}
+		UnitSpawner
+		{
+			unitName = Victor 1-1
+			globalPosition = (79425.234710693359, 1130.7861251831055, 179344.0657043457)
+			unitInstanceID = 29
+			unitID = MultiplayerSpawnEnemy
+			rotation = (1.291864E-06, 280.9026, -6.706905E-06)
+			lastValidPlacement = (79425.234710693359, 1130.7861251831055, 179344.0657043457)
+			editorPlacementMode = Ground
+			onCarrier = False
+			mpSelectEnabled = True
+			UnitFields
+			{
+				vehicle = AV-42C
+				slotLabel = 
+				unitGroup = Enemy:Victor
+				startMode = FlightReady
+				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				initialSpeed = 0
+				rtbIsSpawn = False
+				limitedLives = False
+				lifeCount = 1
+				costToSpawn = 0
+				liveryRef = 0;
+				receiveFriendlyDamage = True
+				slots = 2
+				b_eqAssignmentMode = False
+				selectableAltSpawn = False
+			}
+		}
 	}
 	PATHS
 	{
@@ -918,25 +980,25 @@ CustomScenario
 		{
 			id = 9
 			name = airbase_B
-			globalPoint = (78017.589999999997, 1009.41113, 177802.01999999999)
+			globalPoint = (77967.185302734375, 1009.2697143554688, 177847.91680908203)
 		}
 		WAYPOINT
 		{
 			id = 10
 			name = airbase_B
-			globalPoint = (78438.589999999997, 1009.41113, 177523.01999999999)
+			globalPoint = (78510.624046325684, 1009.2696533203125, 177591.5732421875)
 		}
 		WAYPOINT
 		{
 			id = 11
 			name = airbase_B
-			globalPoint = (80338.589999999997, 1009.41113, 178645.01999999999)
+			globalPoint = (80340.352600097656, 1009.2698974609375, 178570.77532958984)
 		}
 		WAYPOINT
 		{
 			id = 12
 			name = airbase_B
-			globalPoint = (78438.589999999997, 1009.41113, 180555.01999999999)
+			globalPoint = (78351.209671020508, 1009.270263671875, 180546.3512878418)
 		}
 	}
 	UNITGROUPS
@@ -947,6 +1009,7 @@ CustomScenario
 			Bravo = 2;8;
 			Charlie = 2;9;10;
 			Delta = 2;11;12;13;
+			Echo = 2;28;
 			Alpha_SETTINGS
 			{
 				syncAltSpawns = False
@@ -963,6 +1026,10 @@ CustomScenario
 			{
 				syncAltSpawns = False
 			}
+			Echo_SETTINGS
+			{
+				syncAltSpawns = False
+			}
 		}
 		ENEMY
 		{
@@ -970,6 +1037,7 @@ CustomScenario
 			Xray = 2;23;24;
 			Yankee = 2;22;
 			Zulu = 2;14;15;16;17;18;19;20;21;
+			Victor = 2;29;
 			Whiskey_SETTINGS
 			{
 				syncAltSpawns = False
@@ -983,6 +1051,10 @@ CustomScenario
 				syncAltSpawns = False
 			}
 			Zulu_SETTINGS
+			{
+				syncAltSpawns = False
+			}
+			Victor_SETTINGS
 			{
 				syncAltSpawns = False
 			}
@@ -1001,7 +1073,7 @@ CustomScenario
 			objectiveName = Kill
 			objectiveInfo = Join the discord: https://discord.gg/yQ8ZW8cQRt
 			objectiveID = 0
-			orderID = 1
+			orderID = 0
 			required = True
 			completionReward = 0
 			waypoint = 7
@@ -1040,7 +1112,7 @@ CustomScenario
 			objectiveName = SpawncampProt
 			objectiveInfo = 
 			objectiveID = 1
-			orderID = 0
+			orderID = 1
 			required = False
 			completionReward = 0
 			waypoint = null
