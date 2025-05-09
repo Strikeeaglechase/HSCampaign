@@ -1291,10 +1291,324 @@ CustomScenario
 	RandomEvents
 	{
 	}
-	EventSequences
+EventSequences
 	{
-	}
-	BASES
+		SEQUENCE
+		{
+			id = 0
+			sequenceName = bhit_helmet-1
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 0
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\bhit_helmet-1.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 1
+			sequenceName = Bonk_Sound_Effect
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 10
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\Bonk_Sound_Effect.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 2
+			sequenceName = critical-hit-sounds-effect
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 20
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\critical-hit-sounds-effect.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 3
+			sequenceName = halosplash
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 30
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\halosplash.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 4
+			sequenceName = overwatch-kill-sound
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 40
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\overwatch-kill-sound.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 5
+			sequenceName = Trident_return3
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 50
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\Trident_return3.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 6
+			sequenceName = war-thunder-kill
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 60
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\war-thunder-kill.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 7
+			sequenceName = ServerEndNotif
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 70
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 1
+						eventName = Display Message
+						methodName = DisplayMessage
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = System.String
+							{value} = {Server will restart in 5 minutes! "Vote Kick" the map you would like next!}
+							name = Text
+							ParamAttrInfo
+							{
+								type = TextInputModes
+								data = MultiLine
+							}
+							ParamAttrInfo
+							{
+								type = System.Int32
+								data = 140
+							}
+						}
+						ParamInfo
+						{
+							type = System.Single
+							value = 5
+							name = Duration
+							ParamAttrInfo
+							{
+								type = MinMax
+								data = (1,9999)
+							}
+						}
+					}
+				}
+			}
+		}
+		FOLDER_DATA
+		{
+		}
+	}	BASES
 	{
 		BaseInfo
 		{
@@ -1350,6 +1664,16 @@ CustomScenario
 	}
 	Briefing_B
 	{
+	}
+	ResourceManifest
+	{
+		0 = HSKillEffects\bhit_helmet-1.mp3
+		1 = HSKillEffects\Bonk_Sound_Effect.mp3
+		2 = HSKillEffects\critical-hit-sounds-effect.mp3
+		3 = HSKillEffects\halosplash.mp3
+		4 = HSKillEffects\overwatch-kill-sound.mp3
+		5 = HSKillEffects\Trident_return3.mp3
+		6 = HSKillEffects\war-thunder-kill.mp3
 	}
 }
 

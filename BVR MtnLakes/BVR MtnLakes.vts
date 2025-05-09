@@ -1310,12 +1310,12 @@ CustomScenario
 	RandomEvents
 	{
 	}
-	EventSequences
+EventSequences
 	{
 		SEQUENCE
 		{
 			id = 0
-			sequenceName = Event Sequence 0
+			sequenceName = bhit_helmet-1
 			startImmediately = False
 			whileLoop = False
 			ListOrderIndex = 0
@@ -1331,175 +1331,19 @@ CustomScenario
 					{
 						targetType = System
 						targetID = 0
-						eventName = Play BGM
-						methodName = PlayBGM
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
 						altTargetIdx = -1
 						ParamInfo
 						{
 							type = VTSAudioReference
 							value = HSKillEffects\bhit_helmet-1.mp3
-							name = Song
+							name = Audio
 							ParamAttrInfo
 							{
 								type = VTAudioRefProperty+FieldTypes
-								data = BGM
+								data = CopilotRadio
 							}
-						}
-						ParamInfo
-						{
-							type = System.Boolean
-							value = False
-							name = Loop
-						}
-					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Play BGM
-						methodName = PlayBGM
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = HSKillEffects\Bonk_Sound_Effect.mp3
-							name = Song
-							ParamAttrInfo
-							{
-								type = VTAudioRefProperty+FieldTypes
-								data = BGM
-							}
-						}
-						ParamInfo
-						{
-							type = System.Boolean
-							value = False
-							name = Loop
-						}
-					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Play BGM
-						methodName = PlayBGM
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = HSKillEffects\critical-hit-sounds-effect.mp3
-							name = Song
-							ParamAttrInfo
-							{
-								type = VTAudioRefProperty+FieldTypes
-								data = BGM
-							}
-						}
-						ParamInfo
-						{
-							type = System.Boolean
-							value = False
-							name = Loop
-						}
-					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Play BGM
-						methodName = PlayBGM
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = HSKillEffects\halosplash.mp3
-							name = Song
-							ParamAttrInfo
-							{
-								type = VTAudioRefProperty+FieldTypes
-								data = BGM
-							}
-						}
-						ParamInfo
-						{
-							type = System.Boolean
-							value = False
-							name = Loop
-						}
-					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Play BGM
-						methodName = PlayBGM
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = HSKillEffects\overwatch-kill-sound.mp3
-							name = Song
-							ParamAttrInfo
-							{
-								type = VTAudioRefProperty+FieldTypes
-								data = BGM
-							}
-						}
-						ParamInfo
-						{
-							type = System.Boolean
-							value = False
-							name = Loop
-						}
-					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Play BGM
-						methodName = PlayBGM
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = HSKillEffects\Trident_return3.mp3
-							name = Song
-							ParamAttrInfo
-							{
-								type = VTAudioRefProperty+FieldTypes
-								data = BGM
-							}
-						}
-						ParamInfo
-						{
-							type = System.Boolean
-							value = False
-							name = Loop
-						}
-					}
-					EventTarget
-					{
-						targetType = System
-						targetID = 0
-						eventName = Play BGM
-						methodName = PlayBGM
-						altTargetIdx = -1
-						ParamInfo
-						{
-							type = VTSAudioReference
-							value = HSKillEffects\war-thunder-kill.mp3
-							name = Song
-							ParamAttrInfo
-							{
-								type = VTAudioRefProperty+FieldTypes
-								data = BGM
-							}
-						}
-						ParamInfo
-						{
-							type = System.Boolean
-							value = False
-							name = Loop
 						}
 					}
 				}
@@ -1508,10 +1352,232 @@ CustomScenario
 		SEQUENCE
 		{
 			id = 1
-			sequenceName = ServerEndNotif
+			sequenceName = Bonk_Sound_Effect
 			startImmediately = False
 			whileLoop = False
 			ListOrderIndex = 10
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\Bonk_Sound_Effect.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 2
+			sequenceName = critical-hit-sounds-effect
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 20
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\critical-hit-sounds-effect.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 3
+			sequenceName = halosplash
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 30
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\halosplash.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 4
+			sequenceName = overwatch-kill-sound
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 40
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\overwatch-kill-sound.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 5
+			sequenceName = Trident_return3
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 50
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\Trident_return3.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 6
+			sequenceName = war-thunder-kill
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 60
+			ListFolderName = 
+			EVENT
+			{
+				delay = 0
+				nodeName = New Node
+				EventInfo
+				{
+					eventName = 
+					EventTarget
+					{
+						targetType = System
+						targetID = 0
+						eventName = Copilot Radio Message
+						methodName = PlayCopilotRadioMessageLowPriority
+						altTargetIdx = -1
+						ParamInfo
+						{
+							type = VTSAudioReference
+							value = HSKillEffects\war-thunder-kill.mp3
+							name = Audio
+							ParamAttrInfo
+							{
+								type = VTAudioRefProperty+FieldTypes
+								data = CopilotRadio
+							}
+						}
+					}
+				}
+			}
+		}
+		SEQUENCE
+		{
+			id = 7
+			sequenceName = ServerEndNotif
+			startImmediately = False
+			whileLoop = False
+			ListOrderIndex = 70
 			ListFolderName = 
 			EVENT
 			{
@@ -1546,7 +1612,7 @@ CustomScenario
 						ParamInfo
 						{
 							type = System.Single
-							value = 1
+							value = 5
 							name = Duration
 							ParamAttrInfo
 							{
@@ -1558,8 +1624,10 @@ CustomScenario
 				}
 			}
 		}
-	}
-	BASES
+		FOLDER_DATA
+		{
+		}
+	}	BASES
 	{
 		BaseInfo
 		{
