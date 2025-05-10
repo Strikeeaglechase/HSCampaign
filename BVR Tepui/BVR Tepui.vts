@@ -5,7 +5,7 @@ CustomScenario
 	campaignOrderIdx = 10
 	scenarioName = BVR Tepui
 	scenarioID = BVR Tepui
-	scenarioDescription = 24/7 BVR. Each team gets 8x F/A-26b, 2x EF-24, 3x T-55, 1x F-45
+	scenarioDescription = 24/7 BVR. Join the discord to see your stats https://discord.gg/yQ8ZW8cQRt
 	mapID = Tepui
 	vehicle = F-45A
 	multiplayer = True
@@ -1634,6 +1634,12 @@ EventSequences
 	}
 	Briefing
 	{
+		BRIEFING_NOTE
+		{
+			text = Welcome to the 24/7 ranked server.///nMissile intercepting is disabled.///nCollisions with aircraft are enabled.///nDo not get closer than 13nm to the enemy airbase. Join https://discord.gg/yQ8ZW8cQRt for more information and a leaderboard!
+			imagePath = 
+			audioClipPath = 
+		}
 	}
 	Briefing_B
 	{
