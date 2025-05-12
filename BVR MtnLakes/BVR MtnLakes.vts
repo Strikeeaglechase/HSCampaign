@@ -1310,7 +1310,7 @@ CustomScenario
 	RandomEvents
 	{
 	}
-EventSequences
+	EventSequences
 	{
 		SEQUENCE
 		{
@@ -1627,7 +1627,8 @@ EventSequences
 		FOLDER_DATA
 		{
 		}
-	}	BASES
+	}	
+	BASES
 	{
 		BaseInfo
 		{
