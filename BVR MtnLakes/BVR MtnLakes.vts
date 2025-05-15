@@ -1,6 +1,6 @@
 CustomScenario
 {
-	gameVersion = 1.12.4f3
+	gameVersion = 1.12.5f1
 	campaignID = Headless Server
 	campaignOrderIdx = 11
 	scenarioName = BVR MtnLakes
@@ -285,7 +285,7 @@ CustomScenario
 			globalPosition = (57757.660625457764, 1865.1018218994141, 37290.282302856445)
 			unitInstanceID = 8
 			unitID = MultiplayerSpawn
-			rotation = (-1.870176E-06, 213.8363, -9.47657E-06)
+			rotation = (-1.870176E-06, 213.8363, -9.476571E-06)
 			lastValidPlacement = (57757.660625457764, 1865.1018218994141, 37290.282302856445)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -685,7 +685,7 @@ CustomScenario
 			globalPosition = (78136.3720703125, 1264.953125, 177610.61669921875)
 			unitInstanceID = 22
 			unitID = MultiplayerSpawnEnemy
-			rotation = (6.108993E-06, 41.96093, 5.493017E-06)
+			rotation = (6.108994E-06, 41.96093, 5.493016E-06)
 			lastValidPlacement = (78136.3720703125, 1264.953125, 177610.61669921875)
 			editorPlacementMode = Ground
 			onCarrier = False
@@ -871,7 +871,7 @@ CustomScenario
 				slotLabel = 
 				unitGroup = Allied:Echo
 				startMode = FlightReady
-				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				equipment = h70-x7;h70-4x4;h70-x19;mk82x1;mk82x2;mk82x3;mk82HDx1;mk82HDx2;mk82HDx3;agm89x1;gbu38x1;gbu38x2;gbu38x3;gbu39x3;gbu39x4u;cbu97x1;hellfirex4;maverickx1;maverickx3;cagm-6;iris-t-x1;iris-t-x2;iris-t-x3;marmx1;av42_gbu12x1;av42_gbu12x2;av42_gbu12x3;
 				initialSpeed = 0
 				rtbIsSpawn = False
 				limitedLives = False
@@ -879,7 +879,6 @@ CustomScenario
 				costToSpawn = 0
 				liveryRef = 0;
 				receiveFriendlyDamage = True
-				slots = 2
 				b_eqAssignmentMode = False
 				selectableAltSpawn = False
 			}
@@ -901,7 +900,7 @@ CustomScenario
 				slotLabel = 
 				unitGroup = Enemy:Victor
 				startMode = FlightReady
-				equipment = t55_mk82;t55_mk82x2;t55_mk82x3;t55_mk82HDx1;t55_mk82HDx2;t55_mk82HDx3;t55_mk83x1;t55_cbu97x1;t55_gbu12x1;t55_gbu12x2;t55_gbu12x3;t55_gbu38x1;t55_gbu38x2;t55_gbu38x3;t55_gbu39x4u;t55_maverickx1;t55_maverickx3;t55_cagm-6;t55_h70-x7ld;t55_h70-x14ld;t55_apkws-x7;t55_agm161;t55_agm89x1;
+				equipment = h70-x7;h70-4x4;h70-x19;mk82x1;mk82x2;mk82x3;mk82HDx1;mk82HDx2;mk82HDx3;agm89x1;gbu38x1;gbu38x2;gbu38x3;gbu39x3;gbu39x4u;cbu97x1;hellfirex4;maverickx1;maverickx3;cagm-6;iris-t-x1;iris-t-x2;iris-t-x3;marmx1;av42_gbu12x1;av42_gbu12x2;av42_gbu12x3;
 				initialSpeed = 0
 				rtbIsSpawn = False
 				limitedLives = False
@@ -909,7 +908,6 @@ CustomScenario
 				costToSpawn = 0
 				liveryRef = 0;
 				receiveFriendlyDamage = True
-				slots = 2
 				b_eqAssignmentMode = False
 				selectableAltSpawn = False
 			}
@@ -1627,7 +1625,7 @@ CustomScenario
 		FOLDER_DATA
 		{
 		}
-	}	
+	}
 	BASES
 	{
 		BaseInfo
